@@ -10,6 +10,7 @@ cat > ~/notes/$FILE.md <<- EOM
 ---
 title: $NAME
 date: $DATE
+private: false
 ---
 EOM
 
