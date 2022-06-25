@@ -4,8 +4,6 @@ NAME=$1
 FILE=${NAME// /-}
 DATE=$(date '+%d-%m-%Y')
 
-touch ~/notes/$FILE
-
 cat > ~/notes/$FILE.md <<- EOM
 ---
 title: $NAME
